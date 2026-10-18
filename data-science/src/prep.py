@@ -19,7 +19,7 @@ def parse_args():
     parser.add_argument("--raw_data", type=str, help="Path to raw data")
     parser.add_argument("--train_data", type=str, help="Path to train dataset")
     parser.add_argument("--test_data", type=str, help="Path to test dataset")
-    parser.add_argument("--test_train_ratio", type=float, default=0.2, help="Test-train ratio")
+    parser.add_argument("--test_train_ratio", type=float, default=0.3, help="Test-train ratio")
     args = parser.parse_args()
 
     return args
